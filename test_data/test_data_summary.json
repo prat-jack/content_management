@@ -1,0 +1,383 @@
+{
+  "generation_date": "2025-07-24T03:20:47.187410",
+  "total_documents": 35,
+  "successful": 35,
+  "failed": 0,
+  "document_types": {
+    "competitor_analysis": 5,
+    "customer_feedback": 8,
+    "market_research": 6,
+    "financial_analysis": 4,
+    "product_review": 4,
+    "strategic_planning": 3,
+    "incident_report": 3,
+    "partnership_proposal": 2
+  },
+  "documents": [
+    {
+      "type": "competitor_analysis",
+      "filename": "competitor_analysis_tech_startup.txt",
+      "params": {
+        "industry": "SaaS B2B software",
+        "competitor": "TechCorp Solutions",
+        "tone": "professional and analytical",
+        "length": 1200
+      }
+    },
+    {
+      "type": "competitor_analysis",
+      "filename": "competitor_analysis_retail.txt",
+      "params": {
+        "industry": "e-commerce retail",
+        "competitor": "Amazon",
+        "tone": "strategic and cautious",
+        "length": 1500
+      }
+    },
+    {
+      "type": "competitor_analysis",
+      "filename": "competitor_analysis_fintech.txt",
+      "params": {
+        "industry": "fintech payments",
+        "competitor": "Stripe",
+        "tone": "aggressive and opportunity-focused",
+        "length": 1000
+      }
+    },
+    {
+      "type": "competitor_analysis",
+      "filename": "competitor_analysis_healthcare.txt",
+      "params": {
+        "industry": "digital health",
+        "competitor": "Teladoc Health",
+        "tone": "analytical with regulatory focus",
+        "length": 1300
+      }
+    },
+    {
+      "type": "competitor_analysis",
+      "filename": "competitor_analysis_automotive.txt",
+      "params": {
+        "industry": "electric vehicles",
+        "competitor": "Tesla",
+        "tone": "technical and market-focused",
+        "length": 1400
+      }
+    },
+    {
+      "type": "customer_feedback",
+      "filename": "customer_feedback_positive_app.txt",
+      "params": {
+        "industry": "mobile banking",
+        "product": "mobile banking app",
+        "format": "a detailed customer review",
+        "sentiment": "very positive with minor suggestions",
+        "length": 600
+      }
+    },
+    {
+      "type": "customer_feedback",
+      "filename": "customer_feedback_negative_service.txt",
+      "params": {
+        "industry": "telecommunications",
+        "product": "customer service experience",
+        "format": "a complaint letter",
+        "sentiment": "negative with specific incidents",
+        "length": 800
+      }
+    },
+    {
+      "type": "customer_feedback",
+      "filename": "customer_feedback_mixed_product.txt",
+      "params": {
+        "industry": "consumer electronics",
+        "product": "smart home device",
+        "format": "a product review",
+        "sentiment": "mixed - great features but reliability issues",
+        "length": 700
+      }
+    },
+    {
+      "type": "customer_feedback",
+      "filename": "customer_feedback_enterprise_software.txt",
+      "params": {
+        "industry": "enterprise software",
+        "product": "CRM platform",
+        "format": "an enterprise client feedback report",
+        "sentiment": "positive with feature requests",
+        "length": 1000
+      }
+    },
+    {
+      "type": "customer_feedback",
+      "filename": "customer_feedback_restaurant_chain.txt",
+      "params": {
+        "industry": "food service",
+        "product": "dining experience",
+        "format": "aggregated customer survey results",
+        "sentiment": "mostly positive with operational concerns",
+        "length": 900
+      }
+    },
+    {
+      "type": "customer_feedback",
+      "filename": "customer_feedback_airline_negative.txt",
+      "params": {
+        "industry": "airline",
+        "product": "flight experience",
+        "format": "a detailed complaint",
+        "sentiment": "very negative with compensation request",
+        "length": 750
+      }
+    },
+    {
+      "type": "customer_feedback",
+      "filename": "customer_feedback_streaming_service.txt",
+      "params": {
+        "industry": "entertainment streaming",
+        "product": "video streaming platform",
+        "format": "user experience feedback",
+        "sentiment": "positive with UI/UX suggestions",
+        "length": 650
+      }
+    },
+    {
+      "type": "customer_feedback",
+      "filename": "customer_feedback_insurance_claim.txt",
+      "params": {
+        "industry": "insurance",
+        "product": "claims processing",
+        "format": "customer experience report",
+        "sentiment": "neutral with process improvement suggestions",
+        "length": 850
+      }
+    },
+    {
+      "type": "market_research",
+      "filename": "market_research_ai_adoption.txt",
+      "params": {
+        "topic": "AI adoption in enterprise",
+        "industry": "technology",
+        "focus": "implementation challenges and ROI",
+        "length": 1800
+      }
+    },
+    {
+      "type": "market_research",
+      "filename": "market_research_sustainable_fashion.txt",
+      "params": {
+        "topic": "sustainable fashion trends",
+        "industry": "retail fashion",
+        "focus": "consumer behavior and market opportunities",
+        "length": 1600
+      }
+    },
+    {
+      "type": "market_research",
+      "filename": "market_research_remote_work.txt",
+      "params": {
+        "topic": "remote work technology",
+        "industry": "workplace solutions",
+        "focus": "post-pandemic trends and future outlook",
+        "length": 1700
+      }
+    },
+    {
+      "type": "market_research",
+      "filename": "market_research_ev_charging.txt",
+      "params": {
+        "topic": "EV charging infrastructure",
+        "industry": "automotive/energy",
+        "focus": "market gaps and investment opportunities",
+        "length": 1900
+      }
+    },
+    {
+      "type": "market_research",
+      "filename": "market_research_health_wearables.txt",
+      "params": {
+        "topic": "health monitoring wearables",
+        "industry": "consumer health tech",
+        "focus": "market segmentation and growth drivers",
+        "length": 1500
+      }
+    },
+    {
+      "type": "market_research",
+      "filename": "market_research_cybersecurity_smb.txt",
+      "params": {
+        "topic": "cybersecurity for SMBs",
+        "industry": "information security",
+        "focus": "market needs and solution gaps",
+        "length": 1650
+      }
+    },
+    {
+      "type": "financial_analysis",
+      "filename": "financial_analysis_q4_results.txt",
+      "params": {
+        "company_size": "mid-market",
+        "industry": "software",
+        "period": "Q4 2024",
+        "tone": "optimistic with caution",
+        "length": 1400
+      }
+    },
+    {
+      "type": "financial_analysis",
+      "filename": "financial_analysis_cost_reduction.txt",
+      "params": {
+        "company_size": "enterprise",
+        "industry": "manufacturing",
+        "period": "FY 2024",
+        "tone": "urgent and action-oriented",
+        "length": 1300
+      }
+    },
+    {
+      "type": "financial_analysis",
+      "filename": "financial_analysis_startup_runway.txt",
+      "params": {
+        "company_size": "startup",
+        "industry": "fintech",
+        "period": "18-month projection",
+        "tone": "realistic with scenario planning",
+        "length": 1200
+      }
+    },
+    {
+      "type": "financial_analysis",
+      "filename": "financial_analysis_merger_impact.txt",
+      "params": {
+        "company_size": "large enterprise",
+        "industry": "pharmaceutical",
+        "period": "post-merger integration",
+        "tone": "analytical and strategic",
+        "length": 1600
+      }
+    },
+    {
+      "type": "product_review",
+      "filename": "product_review_new_feature_launch.txt",
+      "params": {
+        "product": "AI-powered analytics dashboard",
+        "industry": "business intelligence",
+        "perspective": "product management team",
+        "length": 1100
+      }
+    },
+    {
+      "type": "product_review",
+      "filename": "product_review_mobile_app_v2.txt",
+      "params": {
+        "product": "mobile app version 2.0",
+        "industry": "food delivery",
+        "perspective": "engineering and UX teams",
+        "length": 1000
+      }
+    },
+    {
+      "type": "product_review",
+      "filename": "product_review_hardware_device.txt",
+      "params": {
+        "product": "IoT sensor device",
+        "industry": "industrial IoT",
+        "perspective": "quality assurance team",
+        "length": 1200
+      }
+    },
+    {
+      "type": "product_review",
+      "filename": "product_review_platform_migration.txt",
+      "params": {
+        "product": "cloud platform migration",
+        "industry": "enterprise software",
+        "perspective": "customer success team",
+        "length": 1300
+      }
+    },
+    {
+      "type": "strategic_planning",
+      "filename": "strategic_planning_digital_transformation.txt",
+      "params": {
+        "company_size": "traditional enterprise",
+        "industry": "retail banking",
+        "focus": "digital transformation",
+        "timeframe": "3-year roadmap",
+        "length": 2000
+      }
+    },
+    {
+      "type": "strategic_planning",
+      "filename": "strategic_planning_market_expansion.txt",
+      "params": {
+        "company_size": "growing SMB",
+        "industry": "professional services",
+        "focus": "geographic expansion",
+        "timeframe": "18-month plan",
+        "length": 1700
+      }
+    },
+    {
+      "type": "strategic_planning",
+      "filename": "strategic_planning_sustainability.txt",
+      "params": {
+        "company_size": "multinational corporation",
+        "industry": "consumer goods",
+        "focus": "sustainability and ESG goals",
+        "timeframe": "5-year vision",
+        "length": 1900
+      }
+    },
+    {
+      "type": "incident_report",
+      "filename": "incident_report_data_breach.txt",
+      "params": {
+        "incident_type": "data security breach",
+        "industry": "healthcare",
+        "severity": "high - customer data exposed",
+        "length": 1100
+      }
+    },
+    {
+      "type": "incident_report",
+      "filename": "incident_report_service_outage.txt",
+      "params": {
+        "incident_type": "service outage",
+        "industry": "cloud services",
+        "severity": "critical - 4 hour downtime",
+        "length": 1000
+      }
+    },
+    {
+      "type": "incident_report",
+      "filename": "incident_report_supply_chain.txt",
+      "params": {
+        "incident_type": "supply chain disruption",
+        "industry": "manufacturing",
+        "severity": "medium - production delays",
+        "length": 950
+      }
+    },
+    {
+      "type": "partnership_proposal",
+      "filename": "partnership_proposal_tech_integration.txt",
+      "params": {
+        "proposer_industry": "AI/ML platform",
+        "target_industry": "enterprise software",
+        "partnership_type": "technology integration",
+        "length": 1400
+      }
+    },
+    {
+      "type": "partnership_proposal",
+      "filename": "partnership_proposal_distribution.txt",
+      "params": {
+        "proposer_industry": "consumer electronics",
+        "target_industry": "retail chain",
+        "partnership_type": "exclusive distribution agreement",
+        "length": 1300
+      }
+    }
+  ]
+}
