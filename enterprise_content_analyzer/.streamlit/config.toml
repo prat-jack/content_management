@@ -1,0 +1,45 @@
+[theme]
+# Primary colors - Professional corporate blue theme
+primaryColor = "#2E4A6B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F8F9FA"
+textColor = "#333333"
+
+[server]
+# Server configuration for deployment
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 50
+
+[browser]
+# Browser configuration
+gatherUsageStats = false
+showErrorDetails = false
+
+[ui]
+# Hide Streamlit branding for professional appearance
+hideTopBar = false
+hideSidebarNav = false
+
+[client]
+# Optimize for better performance
+caching = true
+displayEnabled = true
+toolbarMode = "viewer"
+
+[logger]
+# Production logging configuration
+enableLogging = true
+level = "INFO"
+
+[deprecation]
+# Handle deprecation warnings
+showfileUploaderEncoding = false
+showPyplotGlobalUse = false
+
+# Additional deployment settings
+[global]
+# Suppress warnings in production
+suppressDeprecationWarnings = true
+showWarningOnDirectExecution = false
