@@ -1,11 +1,23 @@
 import os
 from openai import OpenAI
 from dotenv import load_dotenv
+import streamlit as st
 
 class ContentAnalyzer:
     def __init__(self):
         load_dotenv()
-        self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        
+        # Try to get API key from multiple sources
+        api_key = (
+            st.secrets.get("OPENAI_API_KEY") or  # Streamlit Cloud secrets
+            os.getenv("OPENAI_API_KEY") or       # Environment variable
+            None
+        )
+        
+        if not api_key:
+            raise ValueError("OpenAI API key not found. Please set OPENAI_API_KEY in Streamlit secrets or environment variables.")
+            
+        self.client = OpenAI(api_key=api_key)
 
     def analyze_content(self, text: str) -> dict:
         """
